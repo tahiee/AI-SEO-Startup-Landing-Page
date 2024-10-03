@@ -4,7 +4,7 @@ import GridLine from "@/assets/grid-lines.png";
 
 export const CallToAction = () => {
   return (
-    <section className="py-20">
+    <section className="py-20 md:py-24">
       <div className="container">
         <div
           className="border border-white/15 py-24 rounded-xl overflow-hidden relative"
@@ -19,10 +19,10 @@ export const CallToAction = () => {
             }}
           ></div>
           <div className=" relative">
-            <h2 className="text-5xl tracking-tighter font-medium text-center">
+            <h2 className="text-5xl tracking-tighter font-medium text-center md:text-6xl max-w-sm mx-auto">
               AI-Driven SEO for everyone.
             </h2>
-            <p className="text-lg mt-5 text-center text-white/70 max-w-sm mx-auto px-4 tracking-tight">
+            <p className="text-lg mt-5 text-center text-white/70 px-4 tracking-tight md:text-xl max-w-xs mx-auto">
               Achieve clear, impactful result without the complexity.
             </p>
             <div className="flex justify-center mt-8">
